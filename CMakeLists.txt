@@ -11,7 +11,6 @@ add_executable(trumeter-utility ${TRUMETER_UTIL_SRC})
 target_include_directories(trumeter-utility PUBLIC ${LIBMODBUS_SRC_DIR})
 target_link_libraries(trumeter-utility modbus)
 
-
 INSTALL(TARGETS trumeter-utility
 	RUNTIME DESTINATION sbin
 )

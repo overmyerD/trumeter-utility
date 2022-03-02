@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/libmodbus/src/modbus-rtu.h
+modbus.h
+../libs/libmodbus/src/modbus.h
+
+../libs/libmodbus/src/modbus-tcp.h
+modbus.h
+../libs/libmodbus/src/modbus.h
+winsock2.h
+-
+
+../libs/libmodbus/src/modbus-version.h
+
+../libs/libmodbus/src/modbus.h
+sys/param.h
+-
+stdint.h
+-
+stdint.h
+../libs/libmodbus/src/stdint.h
+modbus-version.h
+../libs/libmodbus/src/modbus-version.h
+modbus-tcp.h
+../libs/libmodbus/src/modbus-tcp.h
+modbus-rtu.h
+../libs/libmodbus/src/modbus-rtu.h
+
+/home/dalton/projects/tmp/src/trumeter-utility.cpp
+errno.h
+-
+modbus.h
+-
+stdio.h
+-
+
