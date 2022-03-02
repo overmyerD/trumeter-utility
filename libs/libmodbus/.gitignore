@@ -29,7 +29,6 @@ Makefile.in
 /stamp-h1
 /*.sublime-*
 /.vscode
-src/modbus-version.h
 src/win32/modbus.dll.manifest
 tests/bandwidth-client
 tests/bandwidth-server-many-up
