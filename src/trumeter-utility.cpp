@@ -73,6 +73,9 @@ const char* input_register_table[] = {
 };
 
 int main(void) {
+
+  printf("starting\n");
+
   modbus_t* ctx;
 
   ctx = modbus_new_rtu(UART_PATH, TRUMETER_BUAD_RATE, 'N', 8, 2);
